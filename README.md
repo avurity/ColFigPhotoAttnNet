@@ -1,7 +1,8 @@
 
 # **ColFigPhotoAttnNet**
 
-This repository contains a ColFigPhotoAttnNet framework.
+This repository contains the ColFigPhotoAttnNet framework for reliable finger photo presentation attack detection, leveraging window-attention mechanisms across multiple color spaces. The architecture integrates MobileNet-V3 for feature extraction and applies pointwise convolution within a bottleneck framework with window attention mechanisms, using fine-tuned Swin transformer weights. Then, features of three color spaces are combined with element-wise addition and pointwise convolution and fed in a Nested Residual Block that has been initialized with ResNet34 weights.
+Finally, at inference, the model applies Dynamic Quantization and gives the final global decision.
 
 ![image](https://github.com/user-attachments/assets/64c67dcb-84c0-4cb9-a985-2fc449b8fa05)
 
@@ -45,6 +46,16 @@ Dependencies include:
 - tqdm
 
 ---
+
+## **Pre-trained Models**
+Download the pre-trained `.pth` model files from [Google Drive](<drive_link_here>) and place them in the `saved_models/` directory of this repository:
+
+project/ ├── saved_models/ │ ├── ablation_model.pth │ ├── swin.pth │ └── res34.pth
+
+These .pth files are essential for running the model.
+
+## **Important Note**
+The finger photo dataset used in this research is **not publicly available**. However, you can request access to the dataset by contacting the authors directly. 
 
 ## **Setup**
 Clone this repository and navigate to its directory:
