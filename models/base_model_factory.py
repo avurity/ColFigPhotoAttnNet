@@ -1,6 +1,7 @@
 import torch
 from torchvision import models
 from models.channel_reducer import ChannelReducer
+import torch.nn as nn
 
 def base_model_factory(in_channels=960, num_classes=2):
     model_address = "pth/swin.pth"
