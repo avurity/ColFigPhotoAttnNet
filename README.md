@@ -158,3 +158,14 @@ The following metrics are calculated during testing:
 
 ---
 
+## **Citation**
+If you find this repository useful in your research, please consider citing:
+
+```bibtex
+@inproceedings{colfigphotoattnnet,
+  title={ColFigPhotoAttnNet: Reliable Finger Photo Presentation Attack Detection Leveraging Window-Attention on Color Spaces},
+  author={Anudeep Vurity, Emanuela Marasco, Raghavendra Ramachandra, Jongwoo Park},
+  booktitle={IEEE Winter Applications of Computer Vision (WACV)},
+  year={2025},
+  pages={1--10}
+}
