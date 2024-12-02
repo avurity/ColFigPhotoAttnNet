@@ -1,7 +1,10 @@
 
 # **Integrated Model for Training and Testing**
 
-This repository contains a PyTorch-based framework for training and testing an integrated model that uses multiple color spaces (RGB, HSV, YCbCr) and advanced attention mechanisms to enhance performance on a binary classification task.
+This repository contains a ColFigPhotoAttnNet framework.
+
+![image](https://github.com/user-attachments/assets/64c67dcb-84c0-4cb9-a985-2fc449b8fa05)
+
 
 ## **Contents**
 - [Features](#features)
