@@ -1,5 +1,5 @@
 
-# **Integrated Model for Training and Testing**
+# **ColFigPhotoAttnNet**
 
 This repository contains a ColFigPhotoAttnNet framework.
 
