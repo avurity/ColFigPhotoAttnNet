@@ -48,7 +48,7 @@ Dependencies include:
 ---
 
 ## **Pre-trained Models**
-Download the pre-trained `.pth` model files from [Google Drive](<[drive_link_here](https://drive.google.com/drive/folders/1d8z1mDgeOVrBJ2XRFoI0_CpoebtKSt5f?usp=drive_link)>) and place them in the `saved_models/` directory of this repository:
+Download the pre-trained `.pth` model files from [Google Drive](<https://drive.google.com/drive/folders/1d8z1mDgeOVrBJ2XRFoI0_CpoebtKSt5f?usp=drive_link>) and place them in the `saved_models/` directory of this repository:
 
 project/ ├── saved_models/ │ ├── ablation_model.pth │ ├── swin.pth │ └── res34.pth
 
