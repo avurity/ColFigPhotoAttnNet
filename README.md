@@ -114,6 +114,7 @@ python test.py     --test_path /path/to/test     --batch_size 32     --model_pat
 |----------------|---------|----------------|-----------------------------------------------|
 | `--train_path` | string  | **Required**   | Path to the training dataset                 |
 | `--val_path`   | string  | **Required**   | Path to the validation dataset               |
+| `--test_path`  | string  | **Required**   | Path to the test dataset                     |
 | `--batch_size` | integer | `32`           | Batch size for training and validation       |
 | `--epochs`     | integer | `30`           | Number of training epochs                    |
 | `--lr`         | float   | `0.0001`       | Learning rate for the optimizer              |
