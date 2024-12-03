@@ -33,7 +33,6 @@ def compute_bpcer_at_apcer(fpr, tpr, thresholds, target_apcer):
 def test_model(args):
     device = torch.device(args.device)
 
-    # Initialize model
     print(f"Loading model from {args.model_path}")
     model = IntegratedModelWrapper(base_model_factory).to(device)
     model.load_state_dict(torch.load(args.model_path, map_location=device))
@@ -74,7 +73,6 @@ def test_model(args):
     bpcer_5, threshold_5 = compute_bpcer_at_apcer(fpr, tpr, thresholds, apcer_5)
     bpcer_10, threshold_10 = compute_bpcer_at_apcer(fpr, tpr, thresholds, apcer_10)
 
-    # Print metrics
     print(f"Accuracy: {acc:.4f}")
     print(f"Precision: {precision:.4f}")
     print(f"Recall: {recall:.4f}")
