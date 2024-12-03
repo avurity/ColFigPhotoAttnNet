@@ -36,7 +36,8 @@ def test_model(args):
     # Initialize model
     print(f"Loading model from {args.model_path}")
     model = IntegratedModelWrapper(base_model_factory).to(device)
-    model.load_state_dict(torch.load(args.model_path))
+    model.load_state_dict(torch.load(args.model_path, map_location=device))
+    model.to(device)
     model.eval()
 
 
